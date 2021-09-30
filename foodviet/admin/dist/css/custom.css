@@ -1,0 +1,148 @@
+body .modal-dialog { /* Width */
+    max-width: 100%;
+    width: auto !important;
+    display: inline-block;
+}
+.modal {
+  z-index: -1;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-open .modal {
+   z-index: 1050;
+}
+#select-cart{
+	max-width: 250px;
+	margin-bottom: 15px;
+}
+i.fa {
+    margin-left: .05rem;
+    font-size: 1.2rem;
+    margin-right: .2rem;
+    text-align: center;
+    width: 1.6rem;
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+  background-size: 400% 400% !important;
+  animation: gradient 2s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+p.p-stt {
+    margin-left: 32px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+a.time-sstt {
+    font-size: 16px;
+    margin-left: 30px;
+}
+canvas#nodes {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+.acountmap{
+  display: none;
+}
+h1.glitch{
+    color: white
+    font-family: sans-serif
+    font-weight: 800
+    position: relative
+    font-size: 100px
+    padding: 30px
+  }  
+  h1.glitch::before, h1.glitch::after{
+    padding: 30px
+    color: white
+    content: "Glitch"
+    position: absolute
+    width: 100%
+    height: 100%
+    background: black
+    overflow: hidden
+    top: 0
+  }
+  h1.glitch::before{
+    left: 3px
+    text-shadow: -2px 0 red
+    animation-name: glitch-animation-1
+    animation-duration: 2s
+    animation-timing-function: linear
+    animation-delay: 0s
+    animation-iteration-count: infinite
+    animation-direction: reverse-alternate
+    }
+  h1.glitch::after{
+    left: -3px
+    text-shadow: -2px 0 blue
+    animation-name: glitch-animation-2
+    animation-duration: 2s
+    animation-timing-function: linear
+    animation-delay: 0s
+    animation-iteration-count: infinite
+    animation-direction: reverse-alternate
+  }
+@keyframes glitch-animation-1{
+  $steps: 20
+  @for $i from 0 through $steps 
+    #{percentage($i*(1/$steps))} 
+      clip: rect(random(150)+px, 350px, random(150)+px, 30px)
+    }
+@keyframes glitch-animation-2{
+  $steps: 20
+  @for $i from 0 through $steps 
+    #{percentage($i*(1/$steps))} 
+      clip: rect(random(150)+px, 350px, random(150)+px, 30px)
+    }

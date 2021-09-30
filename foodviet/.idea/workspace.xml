@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ffb2d7c-94dd-48bf-8dbe-819d8dc4db8c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/admin/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1VsJaNkmN6Gik8xtCljInGhHSym" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\thuctap\admin\templates\pages\product" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ffb2d7c-94dd-48bf-8dbe-819d8dc4db8c" name="Default Changelist" comment="" />
+      <created>1578035932579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578035932579</updated>
+      <workItem from="1578035935677" duration="17000" />
+      <workItem from="1578035986126" duration="471000" />
+      <workItem from="1578036479373" duration="65000" />
+      <workItem from="1578036598263" duration="128000" />
+      <workItem from="1578036745940" duration="6039000" />
+      <workItem from="1578101596961" duration="10866000" />
+      <workItem from="1578119706286" duration="7881000" />
+      <workItem from="1578143875716" duration="8702000" />
+      <workItem from="1578206091256" duration="2273000" />
+      <workItem from="1578212252854" duration="126000" />
+      <workItem from="1578277729225" duration="5898000" />
+      <workItem from="1578406770388" duration="5631000" />
+      <workItem from="1578414536390" duration="328000" />
+      <workItem from="1578414907760" duration="1028000" />
+      <workItem from="1578465190374" duration="14045000" />
+      <workItem from="1578551692266" duration="12795000" />
+      <workItem from="1578623569310" duration="5261000" />
+      <workItem from="1578638275111" duration="13847000" />
+      <workItem from="1578705461459" duration="10334000" />
+      <workItem from="1578791034686" duration="2015000" />
+      <workItem from="1578882307521" duration="6418000" />
+      <workItem from="1578895924449" duration="8123000" />
+      <workItem from="1578918232133" duration="4099000" />
+      <workItem from="1578973061151" duration="2001000" />
+      <workItem from="1578982292668" duration="6853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#SQL_Dialects" timestamp="1578036025587">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1578036025587" />
+    <state x="421" y="234" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1578036724591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="421" y="234" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1578036724591" />
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578650721018">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578650721018" />
+    <state x="651" y="171" key="FileChooserDialogImpl" timestamp="1578414856989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578036718146" />
+    <state x="651" y="171" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578414856989" />
+    <state x="517" y="284" key="NewPhpFileDialog" timestamp="1578985691206">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="284" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1578985691206" />
+    <state x="234" y="0" key="SettingsEditor" timestamp="1578041023526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="234" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578041023526" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1578982292558">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578982292558" />
+    <state x="540" y="270" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578918641959" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1578562070423">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1578562070423" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1578644454684">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578644454684" />
+  </component>
+</project>

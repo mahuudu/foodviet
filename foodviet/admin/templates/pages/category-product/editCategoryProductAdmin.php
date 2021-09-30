@@ -1,0 +1,45 @@
+
+<?php
+require_once('templates/layout/headerAdmin.php');
+$error =isset($error)?$error:"";
+$row= mysqli_fetch_assoc($result);
+?>
+
+<form action="?action=doEditCategoryProductAdmin" method="post" enctype="multipart/form-data">
+    <table class="table table-striped">
+        <tr>
+            <td>Tên Danh mục Sản Phẩm</td>
+            <td><input type="text" name="name" required="required" value="<?php echo $row['category_name']; ?>"  class="form-control" ></td>
+        </tr>
+        <tr>
+            <td>Hình ảnh</td>
+            <td>
+                  <?php if (!empty($row['category_image'])) { ?>
+                    <img style="width: 150px; height: 150px;" src="../uploads/category/<?= $row['category_image'] ?>" /><br/>
+                    <!-- <input type="hidden" name="image_link_old" value="<?= $row_product['image_link'] ?>" /> -->
+                <?php } ?>
+                    <input type="file" name="image_link"  class="form-control" >
+
+            </td>
+       
+            <input type="hidden" name="id" value="<?php echo $row['cat_id']; ?>">
+        </tr>
+    </table>
+       <div class="row" >
+        <div class="col-2 col-sm-2 col-lg-2 col-xl-2 col-md-2">
+        <input type="submit" name="edit_category" class="btn btn-primary btn-block btn-flat"</input>
+            </div>
+    </div>
+</form>
+<?php
+if ($error != ""){
+    ?>
+    <input id="error" type="hidden" value="<?php echo $error ?>">
+    <?php
+}
+?>
+<?php
+require_once('templates/layout/footerAdmin.php');
+?>
+
+
